@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		577A18082998BDEC000D4287 /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 577A18072998BDEC000D4287 /* data.csv */; };
 		DC1F858A29988896006F2C4A /* Green_GlamourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F858929988896006F2C4A /* Green_GlamourApp.swift */; };
 		DC1F858E29988897006F2C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1F858D29988897006F2C4A /* Assets.xcassets */; };
 		DC1F859129988897006F2C4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1F859029988897006F2C4A /* Preview Assets.xcassets */; };
@@ -14,17 +15,16 @@
 		DCB37AB12998971D00C4E888 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = DCB37AB02998971D00C4E888 /* SwiftCSV */; };
 		DCB37AB329989A1500C4E888 /* MakeupParseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB37AB229989A1500C4E888 /* MakeupParseView.swift */; };
 		DCB37AB529989A4400C4E888 /* DataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB37AB429989A4400C4E888 /* DataFactory.swift */; };
-		DCB37AB72998A36500C4E888 /* sephora_product_catolog_abbreviated - Sheet1.csv in Resources */ = {isa = PBXBuildFile; fileRef = DCB37AB62998A36500C4E888 /* sephora_product_catolog_abbreviated - Sheet1.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		577A18072998BDEC000D4287 /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.csv; path = ../../../../../../../../Downloads/data.csv; sourceTree = "<group>"; };
 		DC1F858629988896006F2C4A /* Green Glamour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Glamour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1F858929988896006F2C4A /* Green_GlamourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_GlamourApp.swift; sourceTree = "<group>"; };
 		DC1F858D29988897006F2C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC1F859029988897006F2C4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCB37AB229989A1500C4E888 /* MakeupParseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupParseView.swift; sourceTree = "<group>"; };
 		DCB37AB429989A4400C4E888 /* DataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFactory.swift; sourceTree = "<group>"; };
-		DCB37AB62998A36500C4E888 /* sephora_product_catolog_abbreviated - Sheet1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sephora_product_catolog_abbreviated - Sheet1.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			children = (
 				DC1F858929988896006F2C4A /* Green_GlamourApp.swift */,
 				DCB37AB229989A1500C4E888 /* MakeupParseView.swift */,
-				DCB37AB62998A36500C4E888 /* sephora_product_catolog_abbreviated - Sheet1.csv */,
+				577A18072998BDEC000D4287 /* data.csv */,
 				DCB37AB429989A4400C4E888 /* DataFactory.swift */,
 				DC1F858D29988897006F2C4A /* Assets.xcassets */,
 				DC1F858F29988897006F2C4A /* Preview Content */,
@@ -145,7 +145,7 @@
 			files = (
 				DC1F859129988897006F2C4A /* Preview Assets.xcassets in Resources */,
 				DC1F858E29988897006F2C4A /* Assets.xcassets in Resources */,
-				DCB37AB72998A36500C4E888 /* sephora_product_catolog_abbreviated - Sheet1.csv in Resources */,
+				577A18082998BDEC000D4287 /* data.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

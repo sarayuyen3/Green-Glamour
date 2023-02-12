@@ -7,18 +7,34 @@
 
 import SwiftUI
 
+
 struct MakeupParseView: View {
-    var makeups = loadCSV(from: "sephora_product_catolog_abbreviated - Sheet1")
+    @State var orgs = ""
     var body: some View {
-        print(makeups)
-                return List(makeups){ makeup in
-                    Text(makeup.original_brand)
+        ZStack{
+            Color(red: 0, green: 0, blue: 0)
+                .ignoresSafeArea()
+            VStack{
+                RoundedRectangle(cornerRadius: 25)
+                    .foregroundColor(Color.white)
+                    .frame(width: 370, height: 50)
+                    .overlay(
+                        HStack{
+                            Image(systemName: "magnifyingglass")
+                            Text("hello"))
+                    
+                }
+                                
+                        }
         }
     }
-}
-
-struct MakeupParseView_Previews: PreviewProvider {
-    static var previews: some View {
-        MakeupParseView()
+    struct inclusivity_Previews: PreviewProvider {
+        static var previews: some View {
+            MakeupParseView()
+        }
     }
-}
+                        }
+
+
+
+

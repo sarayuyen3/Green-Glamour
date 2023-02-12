@@ -19,7 +19,7 @@ struct Makeup: Identifiable {
     
     init(raw: [String]){
         original_brand = raw[0]
-        original_highlights = raw[4]
+        original_highlights = raw[5]
         original_callout = raw[7]
         dupe_brand = raw[8]
         dupe_highlights = raw[12]
@@ -37,7 +37,7 @@ func loadCSV(from csvName: String) -> [Makeup]{
     var data = ""
     do{
         data = try String(contentsOfFile: filePath)
-    } catch{
+    } catch {
         print(error)
         return []
     }
@@ -51,6 +51,7 @@ func loadCSV(from csvName: String) -> [Makeup]{
             let makeupStruct = Makeup.init(raw: csvColumns)
             csvToStruct.append(makeupStruct)
         }
+        
     }
     
     return csvToStruct
